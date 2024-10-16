@@ -1,3 +1,6 @@
+## Access Swagger UI
+To access Swagger UI, open the link [`http://127.0.0.1:8000/swagger/`]() after running server.
+
 ## Implementing JWT Authentication
 
 This project uses JSON Web Tokens (JWT) for authentication. Below are the steps to implement JWT authentication in your Django REST API.
