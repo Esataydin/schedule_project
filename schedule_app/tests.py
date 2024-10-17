@@ -22,7 +22,6 @@ class ScheduleAPITest(TestCase):
     def setUp(self):
         self.client = APIClient()
 
-
     def test_create_timeslot(self):
         data = {
                     "start": "00:00",

@@ -5,7 +5,7 @@ class TimeSlot(models.Model):
     start = models.TimeField()
     stop = models.TimeField()
     ids = models.JSONField(null=True, blank=True)  # Stores the list of IDs for that time slot.
-    camera_ids = models.JSONField(null=True, blank=True)  # Make sure this field exists
+    camera_ids = models.JSONField(null=True, blank=True)
 
     def __str__(self):
         return f"{self.day}: {self.start} - {self.stop}"

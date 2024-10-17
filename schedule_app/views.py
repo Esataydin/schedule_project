@@ -4,9 +4,11 @@ from .serializers import WeeklyScheduleSerializer, TimeSlotSerializer
 from rest_framework.response import Response
 from rest_framework import status
 
+
 class TimeSlotViewSet(viewsets.ModelViewSet):
     queryset = TimeSlot.objects.all()
     serializer_class = TimeSlotSerializer
+
 
 class WeeklyScheduleViewSet(viewsets.ModelViewSet):
     queryset = WeeklySchedule.objects.all()
